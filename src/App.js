@@ -1,9 +1,6 @@
 import { useState } from "react"
 import calculateWinner from "./helps/CalculateWinner"
-
-
-
-
+import Square from "./Components/Square"
 
 export default function Board(){
   const [squares, setSquare] = useState(Array(9).fill(null))
