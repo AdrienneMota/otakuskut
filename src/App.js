@@ -1,12 +1,7 @@
 import { useState } from "react"
 import calculateWinner from "./helps/CalculateWinner"
 
-function Square({value, onSquareClick}){
-   
-  return(
-    <button className='square' onClick={onSquareClick}>{value}</button>
-  )
-}
+
 
 
 
